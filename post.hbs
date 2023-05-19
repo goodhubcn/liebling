@@ -74,7 +74,16 @@ into the {body} of the default.hbs template --}}
                   </button>
                 </div>
               </div>
-              {{content}}
+              <section class="gh-content gh-canvas">
+                  <div class="post-full-content">
+                      <div class="post-content">
+                          {{content}}
+                      </div>
+                      <aside class="toc-container">
+                          <div class="toc"></div>
+                      </aside>
+                  </div>
+              </section>
               {{!-- List of tags  --}}
               {{#if tags}}
                 <section class="m-tags in-post">
