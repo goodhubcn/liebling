@@ -1,31 +1,28 @@
-[中文版](./README.zh-cn.md)
+[English Version](./README.md)
 # Liebling
 
-Liebling is a beautiful and clean Ghost theme that is easy and comfortable to use. **It's free** and you can use it for any kind of content you might have. Now with dark mode 🌓!
-
-If you find this theme useful, please consider to make a donation to support its development! 🙏🏼
-
-<a href="https://ko-fi.com/eddiesigner" target="_blank"><img src="https://res.cloudinary.com/edev/image/upload/v1583011476/button_y8hgt8.png" alt="Donate" style="width: 250px !important; height: 60px !important;" width="250" height="60"></a>
+Liebling 是一个非常的简洁漂亮容易上手使用的Ghost主题。最最重要的是**它是免费的**，欢迎使用 🌓!
 
 ## Ghost 5
 
-This theme has been optimized for Ghost 5, if you are looking for a Ghost 4 compatible version please refer to [this link](https://github.com/eddiesigner/liebling/releases/tag/v1.5.2).
+目前我是在Ghost 5.48上使用的本主题。Ghost4及之前的版本，请使用以前的[老版本](https://github.com/eddiesigner/liebling/releases/tag/v1.5.2)。
 
 ## Preview
 
-You can see a live demo here: [https://liebling.eduardogomez.io](https://liebling.eduardogomez.io)
+可以去我的博客地址参观效果[https://goodhub.cn](https://goodhub.cn)，或者去原主题demo网站观赏[https://liebling.eduardogomez.io](https://liebling.eduardogomez.io)
 
+![](./assets/screenshot-goodhub.jpeg)
 ![](https://res.cloudinary.com/edev/image/upload/v1583792928/liebling/liebling-promo-desktop.jpg)
 <br><br>
 ![](https://res.cloudinary.com/edev/image/upload/v1570370297/liebling/liebling-promo-mobile.jpg)
 
 ## Download
 
-To get the latest version please head over the [releases page](https://github.com/eddiesigner/liebling/releases) and download the file `liebling.zip` of the latest release.
+下载最新的版本[releases](https://github.com/mjackie946/liebling/releases)。
 
 ## Documentation
 
-To know how to enable the search, comments, newsletter and more, please head to the [Wiki](https://github.com/eddiesigner/liebling/wiki).
+查看原仓库中的使用教程[Wiki](https://github.com/eddiesigner/liebling/wiki).
 
 ## Features
 
@@ -82,6 +79,7 @@ To know how to enable the search, comments, newsletter and more, please head to 
 * Support for normal, wide and full images in posts
 * Reading progress indicator
 * RTL language support
+* post页面支持显示目录列表
 
 ## Localization
 
@@ -103,7 +101,7 @@ To know how to enable the search, comments, newsletter and more, please head to 
 * Hebrew by [cohen604](https://github.com/cohen604)
 * Turkish by [mskoroglu](https://github.com/mskoroglu)
 * Romanian by [dsecareanu](https://github.com/dsecareanu)
-* Chinese Simplified by [IvyB](https://github.com/IvyB)
+* Chinese Simplified by [IvyB](https://github.com/IvyB) [mjackie946](https://github.com/mjackie946)
 * Indonesian by [iqbalbinsb](https://github.com/iqbalbinsb), [khannedy](https://github.com/khannedy)
 * Lithuanian by [pintom](https://github.com/pintom)
 * Dutch by [Qballjos](https://github.com/Qballjos)
