@@ -124,7 +124,7 @@ Liebling 是一个非常的简洁漂亮容易上手使用的Ghost主题。最最
 * PageSpeed Insights: **94/100** (mobile) **99/100** (desktop)
 * Pingdom性能等级: **A 91**
 
-## Theme development
+## 主题开发
 
 感谢 [D3473R](https://github.com/D3473R) 💪创建了一个带有Docker的开发环境。从现在开始，您可以在本地计算机上安装Ghost实例而无需担心。只需两个命令，您就可以即时建立开发环境，并为主题构建生产环境。
 
