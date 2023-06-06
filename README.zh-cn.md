@@ -24,64 +24,64 @@ Liebling 是一个非常的简洁漂亮容易上手使用的Ghost主题。最最
 
 查看原仓库中的使用教程[Wiki](https://github.com/eddiesigner/liebling/wiki).
 
-## Features
+## 特点
 
-### General features
+### 常规特点
 
-* Clean and beautiful design
-* Lightning fast
-* Lightweight and high performance
-* Fully responsive, looks great on any device
-* Compatible with modern browsers
+* 干净美观的设计
+* 极速响应
+* 轻巧高效
+* 完全响应式，适配任何设备
+* 兼容现代浏览器
 
-### Ghost features
+### Ghost 特点
 
-* Subscription form
-* Multiple authors
-* Logo support
-* Secondary menu
-* Accent color
-* Featured posts and pages
-* Post, Page, Tag, Authors, pages
-* Koenig editor
-* Bookmark card
-* Gallery card
-* Button card
-* NFT card
-* Callouts
-* Toggles
-* Quotes
-* Products
-* Audio
-* Video
-* File uploads
-* Headers
-* Blog title and description
-* Cover image for Home, Post, Page, Tag, Author pages
-* Author avatar, bio, location, website and social links
-* Facebook and Twitter social links
-* Reading time
-* Next and Previous post navigation
-* Primary tag in posts
+* 订阅表单
+* 多位作者支持
+* Logo 支持
+* 次级菜单
+* 强调色彩
+* 精选文章和页面
+* 文章、页面、标签、作者、页面等
+* Koenig 编辑器
+* 书签卡片
+* 图库卡片
+* 按钮卡片
+* NFT 卡片
+* 引用
+* 切换
+* 引用
+* 产品
+* 音频
+* 视频
+* 文件上传
+* 头部
+* 博客标题和描述
+* 首页、文章、页面、标签、作者页面的封面图片
+* 作者头像、简介、位置、网站和社交链接
+* Facebook 和 Twitter 的社交链接
+* 阅读时间
+* 前后文章导航
+* 文章的主要标签
 
-### Liebling unique features
+### Liebling 独特特点
 
-* Dark mode
-* Search
-* Custom settings
-* Custom Subscribe page
-* Custom authors page
-* Custom error page
-* Medium style image zoom
-* Comments with Disqus
-* Share post on Facebook and Twitter
-* Slider for featured posts
-* Support for normal, wide and full images in posts
-* Reading progress indicator
-* RTL language support
-* post页面支持显示目录列表
+* 暗黑模式
+* 搜索功能
+* 自定义设置
+* 自定义订阅页面
+* 自定义作者页面
+* 自定义错误页面
+* Medium 风格的图片缩放
+* Disqus 评论功能
+* 在 Facebook 和 Twitter 上分享文章
+* 特色文章的幻灯片
+* 支持文章中的普通、宽幅和全图像
+* 阅读进度指示器
+* RTL 语言支持
+* 文章页面支持目录列表
 
-## Localization
+## 本地化
 
 * English
 * Spanish
@@ -101,7 +101,7 @@ Liebling 是一个非常的简洁漂亮容易上手使用的Ghost主题。最最
 * Hebrew by [cohen604](https://github.com/cohen604)
 * Turkish by [mskoroglu](https://github.com/mskoroglu)
 * Romanian by [dsecareanu](https://github.com/dsecareanu)
-* Chinese Simplified by [IvyB](https://github.com/IvyB) [mjackie946](https://github.com/mjackie946)
+* Chinese Simplified by [IvyB](https://github.com/IvyB), [mjackie946](https://github.com/mjackie946)
 * Indonesian by [iqbalbinsb](https://github.com/iqbalbinsb), [khannedy](https://github.com/khannedy)
 * Lithuanian by [pintom](https://github.com/pintom)
 * Dutch by [Qballjos](https://github.com/Qballjos)
@@ -116,40 +116,40 @@ Liebling 是一个非常的简洁漂亮容易上手使用的Ghost主题。最最
 * Slovak by [jjuris](https://github.com/jjuris)
 * Thai by [Parinya T.](https://github.com/pickyzz)
 
-## Tests performed
+## 测试
 
-* W3C Markup Validation: [Correct validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliebling.eduardogomez.io%2F)
-* Ghost GScan: [100/100 points](https://gscan.ghost.org/)
-* GTmetrix PageSpeed Score: **A (97%)**
+* W3C标记验证: [正确验证](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliebling.eduardogomez.io%2F)
+* Ghost GScan: [100/100 分](https://gscan.ghost.org/)
+* GTmetrix PageSpeed得分: **A (97%)**
 * PageSpeed Insights: **94/100** (mobile) **99/100** (desktop)
-* Pingdom Performance Grade: **A 91**
+* Pingdom性能等级: **A 91**
 
 ## Theme development
 
-Thanks to [D3473R](https://github.com/D3473R) 💪🏼 for creating a development environment with Docker. From now on you can work on this theme without installing a Ghost instance on your local machine. With two commands you have an instant development setup and you can build the theme for production.
+感谢 [D3473R](https://github.com/D3473R) 💪创建了一个带有Docker的开发环境。从现在开始，您可以在本地计算机上安装Ghost实例而无需担心。只需两个命令，您就可以即时建立开发环境，并为主题构建生产环境。
 
-Please take a look to this page to see how it works: https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Docker
+请查看此页面了解其工作原理：https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Docker
 
-## Help and Support
+## 帮助与支持
 
-If you have any questions or troubles with this product, please feel free to open an issue [here](https://github.com/eddiesigner/liebling/issues).
+如果您对此产品有任何问题或困扰，请随时在此处提交问题 [here](https://github.com/mjackie946/liebling/issues).
 
-## Contributing
+## 贡献
 
-Contributions are very welcome. First, please read the [Pull Request Guidelines](https://github.com/eddiesigner/liebling/wiki/Pull-Request-Guidelines) on the wiki.
+非常欢迎贡献。请访问[Goodhub](https://goodhub.cn)，订阅。
 
-## Related
+## 相关
 
-* [Galerie](https://eddiesigner.gumroad.com/l/KgroF) - Modern and versatile theme that stands out for its sleek design, it's incredibly fast, it offers a great user experience and it has many options to customise it.
+* [Galerie](https://eddiesigner.gumroad.com/l/KgroF) - 现代多功能主题，以其简洁设计脱颖而出，速度快，用户体验佳，并提供多种自定义选项。
 
-* [Firma](https://gum.co/ZXLha) - Ghost theme that can be used by startups to large companies to publish any kind of articles related to their business. It stands out for its clean design and is able to adapt to any company's identity.
+* [Firma](https://gum.co/ZXLha) - 适用于初创公司到大公司的Ghost主题，可发布与业务相关的各种文章。以其清晰的设计脱颖而出，并能够适应任何公司的形象。
 
-* [Weiss Pro](https://gum.co/pzvDn) - Modern and beautiful Ghost theme ready to make your content shine.
+* [Weiss Pro](https://gum.co/pzvDn) - 现代美观的Ghost主题，为您的内容增添光彩。
 
-## License
+## 许可证
 
-Copyright (c) 2019-present Eduardo Gómez. Released under the [MIT license](https://github.com/eddiesigner/liebling/blob/master/LICENSE).
+版权所有 (c) 2019-present Eduardo Gómez。根据 [MIT license](https://github.com/eddiesigner/liebling/blob/master/LICENSE) 发布.
 
-## Credits
+## 致谢
 
-All the photos I used in this theme were taken from [Unsplash](https://unsplash.com)
+本主题中使用的所有照片均来自[Unsplash](https://unsplash.com)
