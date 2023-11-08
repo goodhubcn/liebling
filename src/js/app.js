@@ -18,6 +18,7 @@ $(() => {
 
   const $body = $('body');
   const $header = $('.js-header');
+  const $announcementBar = $('#announcement-bar-root');
   const $openMenu = $('.js-open-menu');
   const $closeMenu = $('.js-close-menu');
   const $menu = $('.js-menu');
@@ -264,6 +265,40 @@ $(() => {
     headroom.init();
   }
 
+  if ($announcementBar.length > 0) {
+    $header.addClass('with-announcement-bar');
+
+    setTimeout(() => {
+      $header.removeAttr('data-animate');
+    }, 500);
+
+    const barMutationObserver = new MutationObserver((e) => {
+      if (e[0].addedNodes.length) {
+        $announcementBar.detach().prependTo($header);
+        const barHeight = $announcementBar.height();
+        document.documentElement.style.setProperty('--announcement-bar-height', `${barHeight}px`);
+      }
+
+      if (e[0].removedNodes.length) {
+        document.documentElement.style.setProperty('--announcement-bar-height', '0px');
+      }
+    });
+
+    const barResizeObserver = new ResizeObserver((entries) => {
+      entries.forEach((entry) => {
+        const barHeight = entry.contentRect.height;
+        document.documentElement.style.setProperty('--announcement-bar-height', `${barHeight}px`);
+      })
+    });
+
+    barMutationObserver.observe($announcementBar[0], { childList: true });
+    barResizeObserver.observe($announcementBar[0]);
+  } else {
+    setTimeout(() => {
+      $header.removeAttr('data-animate');
+    }, 500);
+  }
+
   if ($recentSlider.length > 0) {
     const recentSwiper = new Swiper('.js-recent-slider', {
       modules: [FreeMode, A11y],
@@ -297,7 +332,7 @@ $(() => {
     });
   }
 
-  tippy('.js-tooltip');
+  tippy('.js-tooltip', { allowHTML: true });
 
   shave('.js-article-card-title', 100);
   shave('.js-article-card-title-no-image', 250);
